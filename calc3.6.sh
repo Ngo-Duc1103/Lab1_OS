@@ -153,4 +153,6 @@ echo "$res" > "$AnsFile"
 echo  "$res"
 
 echo "$a $op $b = $res" >> history.txt
+
+read -n 1
 done
